@@ -1,0 +1,16 @@
+name: Simple Example
+on: [push]
+
+jobs:
+  simple_job:
+    runs-on: ubuntu-latest
+    name: A simple job
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Web Validate step
+        uses: ./ 
+        with:
+          server: 'https://www.microsoft.com'
+          filename: 'msft.json'

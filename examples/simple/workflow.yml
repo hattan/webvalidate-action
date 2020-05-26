@@ -1,0 +1,13 @@
+name: Simple Example
+on: [push]
+
+jobs:
+  simple_job:
+    runs-on: ubuntu-latest
+    name: A simple job
+    steps:
+      - name: Web Validate
+        uses: hattan/webvalidate-action@v1.0.0
+        with:
+          server: 'https://www.microsoft.com'
+          filename: 'msft.json'

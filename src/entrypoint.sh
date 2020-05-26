@@ -4,7 +4,7 @@ server=$1
 filename=$2
 
 echo "*** Web Validate ***"
-echo "server = $server filename=$filename"
+echo "server = $server files=$filename"
 
 cp /github/workspace/TestFiles/$filename /app/TestFiles/$filename
 
