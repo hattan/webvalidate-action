@@ -7,14 +7,19 @@
 
 Run a sample validation test against `microsoft.com`
 
+* In your repository, create a TestFiles folder in the root of the repository.
+* Place the [msft.json](TestFiles/msft.json) file in ./TestFiles.
+* Create a new workflow file nad inlcude the following:
+
 ```yaml
   - name: Web Validate
-    uses: hattan/webvalidate@v1.0.0
+    uses: hattan/webvalidate-action@v1.0.0
     with:
         server: 'https://www.microsoft.com'
         filename: 'msft.json'
 ```
 
+Note: currently the json files need to be in a TestFiles folder!
 
 ## Inputs
 
