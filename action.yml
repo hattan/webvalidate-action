@@ -1,5 +1,8 @@
 name: 'Web Validate'
 description: 'Web Validate (WebV) is a web request validation tool that can be used to run integration tests and long-running smoke tests.'
+branding:
+  icon: shuffle
+  color: green
 inputs:
   server:  
     description: 'Base URL to validate'
