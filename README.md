@@ -9,7 +9,7 @@ Run a sample validation test against `microsoft.com`
 
 * In your repository, create a TestFiles folder in the root of the repository.
 * Place the [msft.json](TestFiles/msft.json) file in ./TestFiles.
-* Create a new workflow file nad inlcude the following:
+* Create a new workflow file and inlcude the following:
 
 ```yaml
   - name: Web Validate
