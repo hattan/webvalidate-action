@@ -32,6 +32,8 @@ Note: currently the json files need to be in a TestFiles folder!
   - default baseline.json
   - default location ./TestFiles/
 
+(WebV supports multiple file inputs, that feature will be added soon to webvalidate-action)
+
 ## Sample `microsoft.com` validation tests
 
 The [msft.json](TestFiles/msft.json) file contains sample validation tests that will will successfully run against the `microsoft.com` endpoint (assuming content hasn't changed)
