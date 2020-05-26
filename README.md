@@ -1,4 +1,4 @@
-# Web Validate Action- A GitHub Action for Invoking [Web Validate](https://github.com/retaildevcrews/webvalidate)
+## Web Validate Action- A GitHub Action for Invoking [Web Validate](https://github.com/retaildevcrews/webvalidate)
 
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
